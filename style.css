@@ -1,0 +1,221 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+
+
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+   
+     background-image: url("line.jpg");
+    background-size: contain; 
+ 
+
+}
+
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logoimg{
+
+
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    margin: 20px;
+    margin-bottom:0px;
+    margin-top: 0px;
+
+
+}
+
+.heading{
+
+
+    /* background-color: rgb(103, 51, 194); */
+    background-color: rgba(72,52,147,255);
+    color: aliceblue;
+    text-align: center;
+   padding: 10px;
+   font-family: 'Outfit', sans-serif;
+
+
+
+}
+
+
+.cssanimation,
+.cssanimation span {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+
+}
+
+.cssanimation span {
+    display: inline-block
+}
+
+.fadeInBottom {
+    animation-name: fadeInBottom
+}
+
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+
+    }
+
+    to {
+        opacity: 1;
+        color: aliceblue;
+    }
+}
+
+
+
+
+
+/* main */
+
+
+
+
+.containermainlinks{
+
+
+    display: flex;
+    flex-direction: column;
+    margin-top:30px;
+    align-items: center;
+   
+
+    
+}
+
+
+.mainlinkbutton button{
+    /* background-color: rgba(73, 40, 138, 0.8); */
+    background-color:rgba(72,52,147,255) ;
+    border: none;
+    color: rgb(255, 255, 255);
+    width: 80vw;
+    max-width: 500px;
+    height: 18vw;
+    max-height: 80px;
+    margin: 1vw;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    
+    
+ 
+}
+
+.mainlinkbutton button:hover {
+    /* background-color:  rgba(123, 81, 206, 0.8); */
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    /* border: 3px solid rgba(72,52,147); */
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 800px) {
+
+
+    /* .containermainlinks{
+
+        margin-top:50px ;
+    }
+ */
+
+    .mainlinkbutton button{
+
+
+        margin: 6px;
+
+    }
+
+  
+
+}
+
+
+@media screen and (min-width: 1000px) {
+
+
+    /* .containermainlinks{
+
+        margin-top:80px ;
+    } */
+
+
+    .mainlinkbutton button{
+
+
+        margin: 6px;
+
+    }
+
+  
+
+}
+
+
+
+@media screen and (min-width: 1400px) {
+
+
+  
+
+    .mainlinkbutton button{
+
+
+        margin: 6px;
+
+    }
+
+    
+}
+
+
+
+.contmainservice{
+
+    background-color: rgba(72,52,147,255);
+    color: aliceblue;
+    text-align: center;
+   padding: 10px;
+   font-family: 'Outfit', sans-serif;
+   margin-top: 30px;
+   font-size: 20px;
+
+
+}
+
+
+
+
+
+
+
+
+/* .foot{
+    margin: 50px;
+} */
